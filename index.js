@@ -10,7 +10,7 @@ app.use(bodyParser.json());
 app.use(cors());
 
 // Configura tu app de Firebase con la clave de cuenta de servicio
-const serviceAccount = require('./gamestore-1b335-firebase-adminsdk-l9pmi-447941b8b5.json');
+const serviceAccount = require('./NOMBRELLAVE.json');
 
 admin.initializeApp({
     credential: admin.credential.cert(serviceAccount),
